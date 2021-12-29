@@ -36,7 +36,7 @@ test('gets inventory from player or retruns false', () => {
     expect(player.getInventory()).toEqual(false);
 });
 
-test("get's player's health value", () => {
+test("gets player's health value", () => {
     const player = new Player('Dave');
 
     expect(player.getHealth()).toEqual(expect.stringContaining(player.health.toString()));
